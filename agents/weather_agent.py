@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 weather_agent = Agent(
     name="Weather Agent",
     instructions=WEATHER_INSTRUCTIONS,
-    model="llama3.1",
+    model="gpt-4o",
     tools=[get_weather]
 )
 

@@ -1,0 +1,10 @@
+INSERT INTO tasks (description, status) VALUES ('Review code for upcoming project release', 'open');
+INSERT INTO tasks (description, status) VALUES ('Prepare slides for AI/ML team presentation', 'open');
+INSERT INTO tasks (description, status) VALUES ('Refactor Task Manager agent to improve efficiency', 'in_progress');
+INSERT INTO tasks (description, status) VALUES ('Conduct research on data privacy regulations', 'open');
+INSERT INTO tasks (description, status) VALUES ('Set up meeting with project stakeholders', 'scheduled');
+INSERT INTO tasks (description, status) VALUES ('Complete documentation for new API endpoint', 'open');
+INSERT INTO tasks (description, status) VALUES ('Analyze feedback from recent user testing', 'open');
+INSERT INTO tasks (description, status) VALUES ('Plan next sprint for AI assistant project', 'in_progress');
+INSERT INTO tasks (description, status) VALUES ('Update SQL schema for tasks database', 'completed');
+INSERT INTO tasks (description, status) VALUES ('Summarize latest trends in machine learning', 'open');

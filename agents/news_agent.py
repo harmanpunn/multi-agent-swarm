@@ -29,7 +29,7 @@ news_agent = Agent(
     name="News Agent",
     instructions=NEWS_INSTRUCTIONS,
     tools=[get_news_articles, transfer_back_to_triage],
-    model='llama3.1',
+    model='gpt-4o',
 )
 
 news_agent.functions = [get_news_articles, transfer_back_to_triage]
