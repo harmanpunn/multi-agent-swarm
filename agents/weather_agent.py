@@ -12,8 +12,8 @@ logger = logging.getLogger(__name__)
 weather_agent = Agent(
     name="Weather Agent",
     instructions=WEATHER_INSTRUCTIONS,
-    model="gpt-4o",
+    model="gpt-4o-mini",
     tools=[get_weather]
 )
 
-weather_agent.functions = [get_weather, transfer_back_to_triage]
+weather_agent.functions = [get_weather, transfer_back_to_triage] 

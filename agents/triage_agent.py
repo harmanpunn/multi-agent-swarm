@@ -5,7 +5,7 @@ from prompts import TRIAGE_INSTRUCTIONS
 triage_agent = Agent(
     name = "Triage Agent",
     instructions = TRIAGE_INSTRUCTIONS,
-    model = "gpt-4o",
+    model = "gpt-4o-mini",
     tools = [transfer_to_task_manager, transfer_to_news_agent, transfer_to_weather, transfer_to_analytics_agent]
 )
 

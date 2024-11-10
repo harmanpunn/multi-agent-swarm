@@ -32,7 +32,7 @@ task_manager_agent = Agent(
     name="Task Manager Agent",
     instructions=TASK_MANAGER_INSTRUCTIONS,
     tools=[add_task, list_tasks],   
-    model='gpt-4o'
+    model='gpt-4o-mini'
 )
 
 task_manager_agent.functions = [add_task, list_tasks, transfer_back_to_triage]

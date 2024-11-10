@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 analytics_agent = Agent(
     name="Analytics Agent",
     instructions=get_sql_agent_instructions(table_schemas) + "\n\nHelp the user gain insights from the data with analytics. Be super accurate in reporting numbers and citing sources.",
-    model='gpt-4o',
+    model='gpt-4o-mini',
     tools=[run_sql_select_statement]
 )
 
