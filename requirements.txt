@@ -2,6 +2,6 @@ ipykernel
 pandas
 numpy
 scikit-learn
-duckduckgo-search
+duckduckgo_search==5.3.1b1
 git+https://github.com/openai/swarm.git
 python-dotenv
