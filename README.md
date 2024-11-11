@@ -12,6 +12,9 @@ OpenAI's Swarm framework facilitates the creation of modular, stateless agents c
 - **Analytics Agent**: Accesses a database schema, interprets user queries (e.g., "Show me the revenue of each product"), generates, and executes queries to display results.
 - **Triage Agent**: Routes user queries to the appropriate agent, ensuring efficient task handling.
 
+## Architecture Diagram
+![High Level Diagram for multi agent swarm](HLD.png)
+
 ## Prerequisites
 
 Ensure you have the following installed:
