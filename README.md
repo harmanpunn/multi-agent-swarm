@@ -24,8 +24,8 @@ Ensure you have the following installed:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/harmanpunn/swarm-mind.git
-   cd swarm-mind
+   git clone https://github.com/harmanpunn/multi-agent-swarm.git
+   cd multi-agent-swarm
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt    
